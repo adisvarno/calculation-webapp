@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multiplication Practice</h1>
+        
+        <!-- Display Problem -->
+        <div id="problemText" class="problem"></div>
+        
+        <!-- User input -->
+        <input type="number" id="answerInput" placeholder="Enter your answer" class="input">
+        
+        <!-- Feedback Text -->
+        <div id="feedbackText" class="feedback"></div>
+
+        <!-- Difficulty Level -->
+        <label for="difficultySelect">Choose Difficulty:</label>
+        <select id="difficultySelect" class="select">
+            <option value="10">Easy (1-10)</option>
+            <option value="20">Medium (1-20)</option>
+            <option value="30">Hard (1-30)</option>
+        </select>
+        
+        <!-- Timer Switch -->
+        <label for="timerSwitch">Enable Timer:</label>
+        <input type="checkbox" id="timerSwitch">
+
+        <!-- Timer Display -->
+        <div id="timerDisplay" class="timer"></div>
+
+        <!-- Generate New Problem Button -->
+        <button id="generateButton" class="button">Generate Problem</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
